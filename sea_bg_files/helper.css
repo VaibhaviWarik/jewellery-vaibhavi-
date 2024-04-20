@@ -1,0 +1,131 @@
+/* font family */
+.ff-heading{
+    font-family: 'Libre Caslon Text', serif;
+}
+/* line height */
+.lh-55{
+    line-height: 53px;
+
+}
+.lh-60{
+    line-height: 60px;
+}
+
+/* padding top and bootm */
+.pb-80{
+padding-top: 80px;
+padding-bottom: 80px;
+}
+/* Font sizes  */
+
+.fs-12 {
+    font-size: 12px;
+}
+.fs-13 {
+    font-size: 13px;
+}
+.fs-14 {
+    font-size: 14px;
+}
+.fs-15 {
+    font-size: 15px;
+}
+.fs-16 {
+    font-size: 16px;
+}
+.fs-18 {
+    font-size: 18px;
+}
+.fs-19 {
+    font-size: 19px;
+}
+.fs-20 {
+    font-size: 20px;
+}
+.fs-21 {
+    font-size: 21px;
+}
+.fs-28 {
+    font-size: 28px;
+}
+.fs-42 {
+    font-size: 42px;
+}
+.fs-62 {
+    font-size: 62px;
+}
+
+/* Font weight  */
+
+.fw-600 {
+    font-weight: 600;
+}
+.fw-500{
+    font-weight: 500;
+}
+.fw-400 {
+    font-weight: 400;
+}
+.fw-700{
+    font-weight: 700;
+}
+
+/* Background color  */
+
+.bg-light_grey {
+    background-color: #f7f7f7;
+}
+.bg-color-01{
+    background-color: #919095;
+}
+.bg-color-02{
+    background-color: #F8F8F8;
+}
+.bg-color-03{
+    background-color: #E5E5E5;
+}
+.bg-color-4{
+    background-color: #D9D9D9;
+}
+.bg-color-5{
+    background-color: #F6F6F6;
+}
+.bg-color-06{
+    background-color: #F3F2F2;
+}
+
+/* Text color  */
+.text-black {
+    color: #000000;
+}
+
+.text-maroon {
+    color: #561c32;
+    
+}
+
+.text-gray {
+    color: #505d68;
+}
+
+.text-light_grey {
+    color: #a5a5a5;
+}
+.txt-color-01{
+    color: #777777;
+}
+.txt-color-02{
+    color: #27B63D;
+}
+.txt-color-03{
+    color:#917D4E;
+}
+.txt-color-04{
+    color: #696969;
+}
+
+/* Cursor events  */
+
+.pointer {
+    cursor: pointer;
+}

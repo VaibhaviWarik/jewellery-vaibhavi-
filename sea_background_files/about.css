@@ -1,0 +1,56 @@
+.about-bg {
+    background-image: url(../images/about/about-bg.png);
+    background-repeat: no-repeat;
+}
+.about-bg a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+}
+.about-text,
+.legacy-text {
+    padding: 0 20%;
+    color: #696969;
+    font-size: 14px;
+}
+.vision-text,
+.mission-text,
+.philosophy-text {
+    padding: 0px 5%;
+    color: #696969;
+    font-size: 14px;
+}
+.quotes {
+    color: rgba(148, 146, 146, 0.64);
+}
+.ceo-msg-text {
+    color: #696969;
+}
+.whatsapp-chat img {
+    position: fixed;
+    bottom: 20%;
+    right: 0%;
+    width: 80px;
+    cursor: pointer;
+}
+.whatsapp-chat span {
+    display: none;
+    position: fixed;
+    bottom: 23%;
+    right: 6%;
+    background-color: white;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
+}
+.whatsapp-chat img:hover + span {
+    display: block;
+}
+a:hover .whatsapp-chat {
+    color: black;
+    font-weight: 500;
+}
+.about-vission{
+    border-bottom: 3px solid #561C32;
+}

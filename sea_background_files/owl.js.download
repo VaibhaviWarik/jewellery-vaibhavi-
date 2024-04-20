@@ -1,0 +1,141 @@
+// Top sellers
+$(".owl-carousel.top-seller-slider").owlCarousel({
+    loop: true,
+    margin: 10,
+    responsiveClass: true,
+    nav: true,
+    dots: false,
+    responsive: {
+        0: {
+            items: 1,
+        },
+        600: {
+            items: 3,
+        },
+        1000: {
+            items: 4,
+        },
+    },
+});
+
+// Collection
+
+$(".owl-carousel.collection-slider").owlCarousel({
+    loop: true,
+    margin: 20,
+    responsiveClass: true,
+    nav: true,
+    dots: false,
+    responsive: {
+        0: {
+            items: 1,
+        },
+        600: {
+            items: 1,
+        },
+        1000: {
+            items: 1,
+        },
+    },
+});
+
+// New for you
+$(".owl-carousel.new-slider").owlCarousel({
+    loop: true,
+    margin: 20,
+    responsiveClass: true,
+    nav: true,
+    dots: false,
+    responsive: {
+        0: {
+            items: 1,
+        },
+        600: {
+            items: 1,
+        },
+        1000: {
+            items: 1,
+        },
+    },
+});
+
+// Social feed carousel
+
+$(".owl-carousel.social-feed_slider").owlCarousel({
+    loop: true,
+    margin: 20,
+    responsiveClass: true,
+    nav: true,
+    dots: false,
+    responsive: {
+        0: {
+            items: 1,
+        },
+        600: {
+            items: 1,
+        },
+        1000: {
+            items: 1,
+        },
+    },
+});
+
+// Testimonial carousel
+$(".owl-carousel.testimonial_slider").owlCarousel({
+    loop: true,
+    margin: 20,
+    responsiveClass: true,
+    nav: true,
+    dots: false,
+    responsive: {
+        0: {
+            items: 1,
+        },
+        600: {
+            items: 1,
+        },
+        1000: {
+            items: 1,
+        },
+    },
+});
+
+// Customers Who viewed this Also viewed
+$(".owl-carousel.customers-view-slider").owlCarousel({
+    loop: true,
+    margin: 20,
+    responsiveClass: true,
+    nav: true,
+    dots: false,
+    responsive: {
+        0: {
+            items: 1,
+        },
+        600: {
+            items: 2,
+        },
+        1000: {
+            items: 4,
+        },
+    },
+});
+
+// View from the same collection
+$(".owl-carousel.same_view-slider").owlCarousel({
+    loop: true,
+    margin: 20,
+    responsiveClass: true,
+    nav: true,
+    dots: false,
+    responsive: {
+        0: {
+            items: 1,
+        },
+        600: {
+            items: 2,
+        },
+        1000: {
+            items: 4,
+        },
+    },
+});

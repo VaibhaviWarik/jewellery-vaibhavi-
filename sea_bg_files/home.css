@@ -1,0 +1,301 @@
+.kandala-banner{
+position: absolute;
+top: 40%;
+left: 4%;
+}
+.btn_shop{
+    color: #561c32;
+    background-color: white;
+    border: 1px solid white;
+    padding: 12px 16px;
+}
+/* Features  */
+
+.k-features {
+    background-color: #f7f7f7;
+}
+
+.k-features p {
+    color: #000000;
+    font-size: 14px;
+}
+
+/* Categories  */
+
+.k-cateogries h1,
+.top-sellers h1,
+.shop h1,
+.k-new h1,
+.customers-view h1,
+.same_view h1,
+.testimonial h3,
+.about h1,
+.dir-msg h1,
+.legacy h1 {
+    text-transform: uppercase;
+    font-size: 28px;
+    color: #000000;
+}
+
+.bottom-icon {
+    width: 150px;
+}
+
+a.category-explore {
+    color: #000000;
+    border-bottom: 2px solid;
+    width: 20%;
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+
+.categories-card .card {
+    background-color: #f7f7f7;
+}
+
+.categories-card h2 {
+    font-size: 21px;
+    text-transform: uppercase;
+    line-height: 33.3px;
+}
+
+/* Collections */
+.collection-slider button.owl-prev {
+    position: absolute;
+    left: -4%;
+    top: 50%;
+    background: rgba(0, 0, 0, 0.08) !important;
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+}
+
+.collection-slider button.owl-next {
+    position: absolute;
+    right: -4%;
+    top: 50%;
+    background: rgba(0, 0, 0, 0.08) !important;
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+}
+
+.collection-slider span {
+    font-size: 30px;
+    line-height: 1;
+    color: #827b73;
+}
+
+/* Sale  */
+
+.sale {
+    background-image: url(../images/sale-one.png);
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+a.btn.btn_primary {
+    background-color: #561c32;
+    color: white;
+    font-size: 14px;
+}
+
+
+.customised{
+    background-image: url(../images/customised/women-new.png);
+}
+/* lp page */
+.customised-lp{
+    background-image: url(../images/lp/custom-banner.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/* Top sellers  */
+
+.item-type {
+    font-size: 12px;
+    color: #949292;
+    letter-spacing: 0.4px;
+}
+.item-name {
+    font-size: 14px;
+    color: #000000;
+    letter-spacing: 0.4px;
+}
+.item-price {
+    font-size: 14px;
+    color: #561c32;
+    font-weight: 800;
+    letter-spacing: 0.4px;
+}
+/***** owl carousel ******/
+
+.top-seller-slider button.owl-prev,
+.customers-view-slider button.owl-prev,
+.same_view-slider button.owl-prev {
+    position: absolute;
+    left: -4%;
+    top: 35%;
+    background: rgba(0, 0, 0, 0.08) !important;
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+}
+
+.top-seller-slider button.owl-next,
+.customers-view-slider button.owl-next,
+.same_view-slider button.owl-next {
+    position: absolute;
+    right: -4%;
+    top: 35%;
+    background: rgba(0, 0, 0, 0.08) !important;
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+}
+
+.top-seller-slider,
+.customers-view-slider,
+.same_view-slider span {
+    font-size: 30px;
+    line-height: 1;
+    color: #827b73;
+}
+
+/* New for you  */
+
+.new-slider button.owl-prev {
+    position: absolute;
+    left: -4%;
+    top: 50%;
+    background: rgba(0, 0, 0, 0.08) !important;
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+}
+
+.new-slider button.owl-next {
+    position: absolute;
+    right: -4%;
+    top: 50%;
+    background: rgba(0, 0, 0, 0.08) !important;
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+}
+
+.new-slider span {
+    font-size: 30px;
+    line-height: 1;
+    color: #827b73;
+}
+
+
+
+
+/* Social media and testimonial */
+
+.social-feed.card {
+    background-color: #f7f7f7;
+}
+
+.social-feed h3 {
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.social-feed_slider button.owl-prev,
+.social-feed_slider button.owl-next {
+    background: rgba(0, 0, 0, 0.08) !important;
+    width: 40px;
+    height: 40px;
+}
+
+.social-feed .owl-theme .owl-nav {
+    background-color: #f7f7f7;
+    padding-top: 25px !important;
+}
+
+.social-feed span {
+    font-size: 30px;
+    line-height: 1;
+    color: #827b73;
+}
+
+.testimonial.card {
+    background-color: #e4e0e3;
+}
+
+.testimonial img {
+    width: 100px !important;
+}
+
+.testimonial-text {
+    padding: 0px 250px;
+}
+
+.testimonial_slider button.owl-prev,
+.testimonial_slider button.owl-next {
+    background: rgba(86, 28, 50, 0.13) !important;
+    width: 40px;
+    height: 40px;
+}
+
+.testimonial_slider .owl-theme .owl-nav {
+    background-color: #f7f7f7;
+    padding-top: 25px !important;
+}
+
+.testimonial_slider span {
+    font-size: 30px;
+    line-height: 1;
+    color: #827b73;
+}
+
+/* Connect with us  */
+
+.toll-card a:hover {
+    color: black;
+}
+
+.map-card a:hover,
+.video-card a:hover,
+.calendar-card a:hover {
+    color: #561c32;
+}
+
+.map-card a,
+.video-card a,
+.calendar-card a {
+    border-bottom: 2px solid;
+    padding-bottom: 3px;
+}
+
+.connect-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.categories-home{
+ display: grid;
+gap:100px;
+grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+}
+.sticky-call-icon {
+    position: fixed;
+    bottom: 10%;
+    right: 18px;
+    z-index: 99;
+  }
+  .phone-icon {
+    font-size: 45px !important;
+    background-color: #27B63D;
+    color: white;
+    width: 47px;
+    height: 49px;
+    text-align: center;
+    line-height: 2;
+    border-radius: 18px;
+    animation: 1s ease 0s infinite normal none running glowing;
+  }
+  

@@ -1,0 +1,141 @@
+.product-bg {
+    background-image: url(../images/products/product-bg.png);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.product-bg a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 12px;
+}
+
+.total-items {
+    color: #636363;
+}
+
+button.btn.btn-show_more {
+    border: 1px solid #561c32;
+}
+
+button.btn.btn-show_more:hover {
+    border: 1px solid #561c32;
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
+    color: #561c32;
+}
+
+.product-filter a,
+.product-filter a:hover {
+    color: #424b5a;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.btn.btn_compare,
+.btn.btn_sort,
+.btn.btn_tryiton {
+    border: 1px solid #561c32;
+    font-weight: 500;
+}
+.btn.btn_compare:hover,
+.btn.btn_sort:hover,
+.btn.btn_tryiton:hover {
+    border: 1px solid #561c32;
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
+    color: #561c32;
+}
+
+.prd-details a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.product-informations button#pills-details-tab,
+button#pills-info-tab {
+    background-color: transparent;
+    color: #000000;
+    font-weight: 600;
+}
+
+/* Review  */
+
+button.btn.btn_review,
+button.btn.btn_question {
+    background-color: #561c32;
+    color: white;
+}
+
+.star {
+    color: #d3ad6e;
+}
+
+.star-o {
+    color: #d3ad6e;
+    opacity: 0.4;
+}
+
+button#pills-reviews-tab,
+button#pills-questions-tab {
+    background-color: transparent;
+    color: #000000;
+    font-weight: 600;
+}
+
+.product-review-tab,
+.product-informations {
+    border-bottom: 1px solid #c2d1d9;
+}
+
+.product-review-tab .active,
+.product-informations .active {
+    border-bottom: 2px solid #561c32;
+    border-radius: 0px;
+}
+
+/* Product sizes */
+
+button.btn.btn_sizes.active {
+    background-color: #561c32;
+    color: white;
+}
+button.btn.btn_sizes {
+    background-color: #f5f5f5;
+}
+button.btn.btn_pincode {
+    background-color: transparent;
+    border: 1px solid #561c32;
+    color: #561c32;
+}
+/* 
+.counter {
+   
+} */
+
+button.btn.btn_cart {
+    background-color: transparent;
+    border: 1px solid #561c32;
+    color: #561c32;
+}
+
+button.btn.btn_buynow {
+    background-color: #561c32;
+    color: white;
+}
+
+.input-pincode {
+    width: 50%;
+}
+.input-pincode input::placeholder {
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+.like {
+    color: red;
+}
+/* 
+#stars .active{
+    color: #d3ad6e;
+} */

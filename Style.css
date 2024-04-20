@@ -1,0 +1,453 @@
+* {
+  margin: 0px;
+}
+
+.nav {
+  width: 100%;
+  height: 100px;
+  /* background-color: yellow; */
+  display: flex;
+}
+
+.subNav1 {
+  width: 40%;
+  height: 100px;
+  /* background-color: rgb(211, 118, 118); */
+  text-align: center;
+}
+
+.subNav1 img {
+  margin-top: 15px;
+  width: 320px;
+  align-items: center;
+  text-align: center;
+}
+
+.subNav2 {
+  width: 60%;
+  height: 100px;
+  /* background-color: orange; */
+  text-align: center;
+}
+
+/*  division 2*/
+
+.div2 {
+  /* background-color:lightgrey; */
+  width: 100%;
+  height: 70px;
+  display: flex;
+}
+.subDiv1 {
+  width: 25%;
+  height: 70px;
+  /* background-color: lightcyan; */
+}
+
+.subDiv2 {
+  width: 70%;
+  height: 70px;
+  /* background-color: lightpink; */
+}
+
+.ulTag {
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ulTag li {
+  display: flex;
+  list-style: none;
+  font-family: sans-serif;
+  color: #000000;
+}
+
+/*  division 3 - background- image*/
+.bgImg {
+  width: 100%;
+  height: 600px;
+  background-color: lightgreen;
+  background-image: url(./home-banner-desk.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.ImgContent {
+  position: relative;
+  top: 250px;
+  left: 70px;
+  width: 50%;
+  height: 100%;
+  color: white;
+  font-family: serif;
+  font-size: 55px;
+}
+.ImgContent button {
+  width: 110px;
+  font-size: 20px;
+  height: 60px;
+  color: #561c32;
+}
+
+.div3 {
+  background-color: #f7f7f7;
+  /* background-color: yellow; */
+  width: 100%;
+  height: 230px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* .div3_1_sub1 {
+    background-color: peachpuff;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+} */
+
+/* Circle Earrings  */
+.div3_1 {
+  /* background-color: #f7f7f7; */
+  /* background-color: yellow; */
+  width: 100%;
+  height: 230px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.div3_1_sub1 {
+  /* background-color: peachpuff; */
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+/* CATEGORY SECTION  */
+.div_categories {
+  /* background-color: blueviolet; */
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.category p {
+  font-size: 33px;
+  /* font-weight: 10; */
+  font-family: sans-serif;
+}
+
+/* EARINGS NECKLACE SECTION */
+.jewel_option {
+  /* background-color: rgb(196, 125, 125); */
+  width: 100%;
+  height: 280px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ladies_jewels {
+  background-color: lightcyan;
+  width: 150px;
+  height: 150px;
+}
+.ladies_jewels img {
+  width: 150px;
+  height: 150px;
+}
+
+.ladies_jewels2 {
+  background-color: lightcyan;
+  width: 150px;
+  height: 150px;
+}
+.ladies_jewels2 img {
+  width: 150px;
+  height: 150px;
+}
+
+.jewel_option2 {
+  /* background-color: rgb(218, 240, 197); */
+  width: 100%;
+  height: 280px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ladies_jewels2 {
+  background-color: rgb(65, 224, 224);
+  width: 150px;
+  height: 150px;
+}
+
+.men_jewel_option {
+  /* background-color: rgb(176, 136, 240); */
+  width: 100%;
+  height: 280px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.men_jewels2,
+.dummy_jewels2 {
+  background-color: rgb(53, 201, 114);
+  width: 150px;
+  height: 150px;
+}
+.men_jewels2 img {
+  width: 150px;
+  height: 150px;
+}
+
+.dummy_jewels2 {
+  visibility: hidden;
+}
+
+.features {
+  width: 100%;
+  height: 270px;
+  /* background-color: lightpink; */
+}
+
+.features_h1 {
+  width: 100%;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.features_h1 p {
+  font-family: sans-serif;
+  font-size: 28px;
+}
+
+#para {
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+.stones {
+  /* background-color: purple; */
+  width: 100%;
+  height: 480px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.stone_para {
+  color: gray;
+}
+
+.stone_cards_1 {
+  width: 260px;
+  height: 330px;
+  /* background-color: yellowgreen; */
+}
+
+.card_imgPart_1 {
+  background-color: rgb(233, 225, 226);
+  width: 100%;
+  height: 250px;
+}
+
+.stones_price {
+  color: #000000;
+  font-weight: 900;
+  font-family: serif;
+}
+
+.card_imgPart_1 img {
+  /* background-color: rgb(209, 23, 54); */
+  width: 90%;
+  position: relative;
+  left: 13px;
+  top: 13px;
+  height: 220px;
+}
+
+.sea_bg {
+  width: 100%;
+  height: 492px;
+  background-color: red;
+  background-image: url(https://www.kandalaa.com/images/sale-one.png);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  position: relative;
+}
+.sea_bg img {
+  width: 100%;
+  height: 100%;
+}
+
+.sea_bg button {
+  width: 100px;
+  font-size: 15px;
+  height: 40px;
+  background-color: #561c32;
+}
+.sea_bg_sub {
+  position: absolute;
+  left: 50%;
+  width: 40%;
+  height: 400px;
+  /* background-color: pink; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 80px;
+}
+
+.sea_bg_head {
+  font-size: 42px;
+  font-family: sans-serif;
+  color: #f7f7f7;
+}
+
+.sea_bg_para {
+  font-size: 14px;
+  font-family: sans-serif;
+  color: #f7f7f7;
+}
+
+.social_media {
+  /* background-color: yellow; */
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.social_para {
+  font-size: 30px;
+  font-family: sans-serif;
+  position: absolute;
+  top: 80px;
+}
+
+.jhumka {
+  width: 100%;
+  height: 550px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.jhumka_cards {
+  width: 400px;
+  height: 450px;
+  /* background-color: rgb(231, 111, 131); */
+  border-radius: 10px;
+  box-shadow: 1px 1px 15px gray;
+  position: relative;
+}
+
+.jhumka_cards_sub {
+  width: 400px;
+  height: 300px;
+  background-color: blue;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.jhumka_cards_sub img {
+  width: 400px;
+  height: 300px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.jhumka_head {
+  /* font-size: 15px; */
+}
+
+.jhumka_desc {
+  padding: 15px;
+}
+
+.bg_flower {
+  width: 100%;
+  height: 500px;
+  background-image: url("https://www.kandalaa.com/images/customised/women-new.png");
+}
+
+.bg_flower {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.flower_sub {
+  height: 400px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* align-items: center; */
+  margin-left: 100px;
+  /* background-color: #cf9d9d; */
+}
+
+.flower_sub h1 {
+  color: white;
+  font-size: 50px;
+}
+
+.flower_sub button {
+  width: 100px;
+  height: 35px;
+  background-color: #561c32;
+}
+
+.par_foot {
+  padding-top: 100px;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+}
+
+.sub_foot {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.foot_content li {
+  list-style-type: none;
+}
+
+.foot_content .list {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.foot_content .list span {
+  padding-bottom: 5px;
+}
+
+.foot_content .list span {
+  padding-bottom: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border-top: 2px solid gray;
+}
